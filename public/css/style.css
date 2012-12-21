@@ -4,3 +4,17 @@
 .carousel-inner img{height: 300px; width: 100%}
 #printBtn,#downBtn{width: 100%;margin: 10px 0 0 0 }
 footer{text-align: center}
+#twitter {
+  width: 25px;
+  height: 18px;
+}
+a#twit {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+}
+a#twit:link {text-decoration: none; color:#333;}    /* unvisited link */
+a#twit:visited {text-decoration: none; color:#333;} /* visited link */
+a#twit:hover {text-decoration: underline; color:333;} /* hover link */
+a#twit:active {text-decoration: underline; color:grey;} /* active link */
