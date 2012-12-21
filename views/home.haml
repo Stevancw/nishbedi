@@ -2,7 +2,11 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
-      %title Curriculum Vitae
+      %title 
+        - if @title.nil?
+          = "NishBed.com"
+        -else
+          = "NishBedi.com | #{@title}"
       %meta{:content => "Home page for Nish Bedi", :name => "description"}
         %meta{:content => "https://github.com/Stevancw", :name => "author"}
           / Le HTML5 shim, for IE6-8 support of HTML elements

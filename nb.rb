@@ -18,11 +18,6 @@ end
 #--------------------------------------------------------
 
 get "/" do
-  @title = "Home"
+  @title = "Home | Welcome to my site | Bowinger.com"
   haml :home
-end
-
-get "/index" do
-  @title = "Home"
-  haml :index
 end
