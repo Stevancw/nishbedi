@@ -18,6 +18,6 @@ end
 #--------------------------------------------------------
 
 get "/" do
-  @title = "Home | Welcome to my site | Bowinger.com"
+  @title = "Welcome to my site"
   haml :home
 end

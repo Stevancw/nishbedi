@@ -16,13 +16,14 @@
           %link{:href => "css/bootstrap.css", :rel => "stylesheet"}
             %link{:href => "/css/style.css", :rel => "stylesheet"}
               %link{:href => "/css/print.css", :media => "print", :rel => "stylesheet"}
-                %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}
+                %link{:href => '/images/favicon.ico', :rel => "shortcut icon"}
+                %link{:href => '/images/apple-touch-icon.png', :rel => "apple-touch-icon"}
                   /[if IE 6] <script type="text/javascript" src="http://deathtoie6.com/ie6-not-supported.js" ></script>
   %body
     .container
       .span8
         .thumbnail.span3
-          %img{:alt => "", :src => "/images/nish.jpg"}/
+          %img{:alt => "", :src => '/images/nish.jpg'}/
         .hero-unit.span4
           %h1 Nish Bedi
           %h2 Surgical Monkey
@@ -34,11 +35,11 @@
             UK
         .page-header
         %p
-          Hi i'm Nish! I am a surgical trainee in Birmingham interested in complex urological surgery. I did my undergraduate and postgraduate training in London. 
+          Hi i'm Nish! I am a surgical trainee in Birmingham who is interested in complex urological surgery. I did my undergraduate and postgraduate training in London. 
         %p 
           %b At nighttime I like to plot how to change the world.
         %p
-          I became interested in IT solutions for high quality academic writing and collaborations whilst studying a Masters in surgical sciences. He is interested in providing solutions, workable within the NHS framework to encourage and empower all doctors to create an environment of quality research and professional development.
+          I became interested in IT solutions for high quality academic writing and collaborations whilst studying a Masters in surgical sciences. I'm interested in providing solutions, workable within the NHS framework to encourage and empower all doctors to create an environment of quality research and professional development.
         / .page-header.noPrint
         /   %h2 Last work
         / #myCarousel.carousel.noPrint
@@ -84,10 +85,10 @@
           %dt
             %i.icon-asterisk
             Surgical Materials BSc 2006-2007
-          %dd I made a freaky hand thing. This was when I wanted to be an orthopaedic surgeon before I saw the light.
+          %dd I made a freaky hand thing. This was when I wanted to be an orthopaedic surgeon but I saw the light.
           %dt
             %i.icon-asterisk
-            Surgical Science MSc
+            Surgical Science MSc 2010-2011
           %dd I went to UCL and did some interesting stuff there.
         .page-header
           %h2 Work History
@@ -127,15 +128,14 @@
         %p
           %i.icon-comment
           %a#twit{:href => 'https://twitter.com/nishbedi'} Twitter
-        / %p
-        / %img#twitter{:src => 'images/twitter.png'}
-        /   %a#twit{:href => 'https://twitter.com/nishbedi'} Twitter
+
         %a#printBtn.btn.btn-large.noPrint{:href => "#"}
           %i.icon-print
           Print
         %a#downBtn.btn.btn-large.noPrint{:href => "Curriculum_Vitae.pdf"}
           %i.icon-download
           Download
+    
     .container
       %footer
         %p
