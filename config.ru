@@ -1,2 +1,2 @@
-require './bowinger'
+require './nb'
 run Sinatra::Application
