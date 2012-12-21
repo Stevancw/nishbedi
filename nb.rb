@@ -21,3 +21,8 @@ get "/" do
   @title = "Home"
   haml :home
 end
+
+get "/index" do
+  @title = "Home"
+  haml :index
+end

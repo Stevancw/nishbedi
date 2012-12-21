@@ -1,5 +1,4 @@
 require './nb'
-run Sinatra::Application
 
 gem 'rack-rewrite', '~> 1.3.1'
 require 'rack-rewrite'
@@ -10,3 +9,5 @@ require 'rack-rewrite'
         }
     end
 end
+
+run Sinatra::Application
